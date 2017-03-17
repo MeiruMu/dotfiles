@@ -1,0 +1,13 @@
+" Set tabs to spaces with a width of 2
+set expandtab
+set shiftwidth=2
+set tabstop=2
+
+set autoindent
+set cc=80 " Show line length mark at 80 characters
+
+colorscheme desert
+set number " Insert line numbers
+set showmatch " Shows matching brackets etc.
+
+autocmd FileType make set noexpandtab shiftwidth=4 tabstop=4

@@ -15,5 +15,6 @@ colorscheme desert
 set number " Insert line numbers
 set showmatch " Shows matching brackets etc.
 syntax on " Enable syntax highlighting
+set incsearch " Incremental search highlighting
 
 autocmd FileType make set noexpandtab shiftwidth=4 tabstop=4

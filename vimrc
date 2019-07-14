@@ -1,7 +1,6 @@
 set encoding=utf-8
 
 " Set tabs to spaces with a width of 2
-set expandtab
 set shiftwidth=2
 set tabstop=2
 
@@ -16,5 +15,3 @@ set number " Insert line numbers
 set showmatch " Shows matching brackets etc.
 syntax on " Enable syntax highlighting
 set incsearch " Incremental search highlighting
-
-autocmd FileType make set noexpandtab shiftwidth=4 tabstop=4

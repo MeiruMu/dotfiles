@@ -1,9 +1,11 @@
 set encoding=utf-8
 
 " Set tabs to real tabs, display as 2 spaces
-set shiftwidth=2
-set tabstop=2
+set expandtab
+set shiftwidth=4
+set tabstop=4
 
+set smarttab
 set autoindent
 set cc=80 " Show line length mark at 80 characters
 
